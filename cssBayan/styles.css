@@ -1,0 +1,16 @@
+.bayan__box {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  /* display: none; */
+}
+
+label {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
