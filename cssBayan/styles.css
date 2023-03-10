@@ -1,3 +1,14 @@
+body {
+  background-color: rgb(255, 231, 206);
+  box-shadow: ;
+}
+
+.content {
+  max-width: 90%;
+  margin: 0 auto;
+  font-family: "Inconsolata", monospace;
+}
+
 .bayan__box {
   list-style: none;
 }
@@ -6,11 +17,13 @@ img {
   width: 100%;
   max-width: 300px;
   height: auto;
-  /* display: none; */
+  display: none;
 }
 
-label {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 1px dotted black;
+  margin-bottom: 2rem;
 }

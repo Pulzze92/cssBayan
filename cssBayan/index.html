@@ -5,49 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>CSS Bayan</title>
   </head>
   <body>
-    <div class="bayan__title">
-      <h1>CSS Bayan</h1>
-      <p>
-        In the table below you can move the cursor on any row and the meme will
-        appear. Enjoy it!
-      </p>
-    </div>
-    <div class="bayan__container">
-      <ul class="bayan__box">
-        <li class="bayan__box-row">
-          <label for="first">When you are saving file</label>
-          <img src="./img/01.jpg" alt="saving" />
-          <input type="checkbox" id="first" />
-        </li>
-        <li class="bayan__box-row">
-          <label for="second">When you send an email</label>
-          <img src="./img/02.jpg" alt="email" />
-          <input type="checkbox" id="second" />
-        </li>
-        <li class="bayan__box-row">
-          <label for="third">Little bug in the code</label>
-          <img src="./img/03.jpg" alt="bug" />
-          <input type="checkbox" id="third" />
-        </li>
-        <li class="bayan__box-row">
-          <label for="fourth">Phishing test</label>
-          <img src="./img/04.jpg" alt="phishing" />
-          <input type="checkbox" id="fourth" />
-        </li>
-        <li class="bayan__box-row">
-          <label for="fifth">Testing</label>
-          <img src="./img/05.png" alt="testing" />
-          <input type="checkbox" id="fifth" />
-        </li>
-        <li class="bayan__box-row">
-          <label for="sixth">It's wednesday</label>
-          <img src="./img/06.jpg" alt="wednesday" />
-          <input type="checkbox" id="sixth" />
-        </li>
-      </ul>
+    <div class="wrapper">
+      <div class="content">
+        <div class="bayan__title">
+          <h1>CSS Bayan</h1>
+          <p>
+            In the table below you can move the cursor on any row and the meme
+            will appear. Enjoy it!
+          </p>
+        </div>
+        <div class="bayan__container">
+          <ul class="bayan__box">
+            <li class="bayan__box-row">
+              <div class="bayan__box-row title">
+                <label for="first">When you are saving file</label>
+                <input type="checkbox" id="first" />
+              </div>
+              <div class="hidden__meme">
+                <img src="./img/01.jpg" alt="saving" />
+              </div>
+            </li>
+            <li class="bayan__box-row">
+              <div class="bayan__box-row title">
+                <label for="second">When you send an email</label>
+                <input type="checkbox" id="second" />
+              </div>
+              <div class="hidden__meme">
+                <img src="./img/02.jpg" alt="email" />
+              </div>
+            </li>
+            <li class="bayan__box-row">
+              <div class="bayan__box-row title">
+                <label for="third">Little bug in the code</label>
+                <input type="checkbox" id="third" />
+              </div>
+              <div class="hidden__meme">
+                <img src="./img/03.jpg" alt="bug" />
+              </div>
+            </li>
+            <li class="bayan__box-row">
+              <div class="bayan__box-row title">
+                <label for="fourth">Phishing test</label>
+                <input type="checkbox" id="fourth" />
+              </div>
+              <div class="hidden__meme">
+                <img src="./img/04.jpg" alt="phishing" />
+              </div>
+            </li>
+            <li class="bayan__box-row">
+              <div class="bayan__box-row title">
+                <label for="fifth">Testing</label>
+                <input type="checkbox" id="fifth" />
+              </div>
+              <div class="hidden__meme">
+                <img src="./img/05.png" alt="testing" />
+              </div>
+            </li>
+            <li class="bayan__box-row">
+              <div class="bayan__box-row title">
+                <label for="sixth">It's wednesday</label>
+                <input type="checkbox" id="sixth" />
+              </div>
+              <div class="hidden__meme">
+                <img src="./img/06.jpg" alt="wednesday" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   </body>
 </html>
